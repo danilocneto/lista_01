@@ -22,7 +22,7 @@ var x = 5;
 console.log(y);
 let y = 10;
 ```
-a) A saída será undefined seguido de erro   (X)   a variável X é var então ela é declarada no início do código porém nenhum valor é atribuido a ela. A variável Y é let e não é declarada em 'console.log(y)'e por isso ela retorna um erro já que ainda não existe.
+(X) a) A saída será undefined seguido de erro. -- a variável X é var então ela é declarada no início do código porém nenhum valor é atribuido a ela. A variável Y é let e não é declarada em 'console.log(y)'e por isso ela retorna um erro já que ainda não existe.
 
 b) A saída será 5 seguido de 10
 
@@ -49,7 +49,7 @@ b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
 
 c) Substituir if (a || b === 0) por if (a && b === 0)
 
-d) Remover completamente a verificação if (a || b === 0)    (X)  a sintaxe das outras alternativas está errada e a única alternativa que não apresentaria erro seria removendo essa parte da expressão. deveria ser if (a ==0 0 || b === 0) para que as outras pudessem ser validadas. 
+(X) d) Remover completamente a verificação if (a || b === 0)   ---   a sintaxe das outras alternativas está errada e a única alternativa que não apresentaria erro seria removendo essa parte da expressão. deveria ser if (a ==0 0 || b === 0) para que as outras pudessem ser validadas. 
 
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
@@ -78,7 +78,7 @@ console.log(calcularPreco("eletrônico"));
 
 a) O código imprime 1000.
 
-b) O código imprime 200.    (X)  pois ele inicia em eletronico como é referenciado porém so existe break após o segundo caso em que o valor 200 é atribuido, logo o programa retorna 200.
+(X) b) O código imprime 200.   ---  pois ele inicia em eletronico como é referenciado porém so existe break após o segundo caso em que o valor 200 é atribuido, logo o programa retorna 200.
 
 c) O código imprime 50.
 
@@ -99,7 +99,7 @@ b) 6
  
 c) 18
 
-d) 24       (X)   map multiplica tudo por 2, filter seleciona os maiores que 5 e reduce soma os valores do vetor dentro dos critérios anteriores resultando em 24.
+(X) d) 24   ---   map multiplica tudo por 2, filter seleciona os maiores que 5 e reduce soma os valores do vetor dentro dos critérios anteriores resultando em 24.
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -113,7 +113,7 @@ a) ["banana", "maçã", "uva", "abacaxi", "manga", "laranja"]
 
 b) ["banana", "abacaxi", "manga"]   
 
-c) ["banana", "abacaxi", "manga", "laranja"]   (X)  os valores na posicao 1 e 2 do vetor sao substituidos pelos presentes na funcão .splice
+(X) c) ["banana", "abacaxi", "manga", "laranja"]  ---  os valores na posicao 1 e 2 do vetor sao substituidos pelos presentes na funcão .splice
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 ______
@@ -125,7 +125,7 @@ II. Em JavaScript, a herança é implementada através da palavra-chave `extends
 
 a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
 
-b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira. (X)  A segunda afirmação apenas exemplifica uma das maneiras de utilização de herença em javascript por meio do método 'extends' e não é uma justificativa da primeira afirmação.
+(X) b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira. ---  A segunda afirmação apenas exemplifica uma das maneiras de utilização de herença em javascript por meio do método 'extends' e não é uma justificativa da primeira afirmação.
 
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
@@ -165,7 +165,7 @@ III) O código não funciona corretamente, pois Funcionario não pode herdar de 
 
 Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
-a) I e II são verdadeiras.     (X)  em I Como Funcionario herda de Pessoa usando extends ele pode acessar os atributos nome e idade diretamente. em II O método apresentar() em Funcionario substitui o método da classe Pessoa, mas ainda chama super.apresentar() para manter a funcionalidade original.
+(X) a) I e II são verdadeiras.    ---  em I Como Funcionario herda de Pessoa usando extends ele pode acessar os atributos nome e idade diretamente. em II O método apresentar() em Funcionario substitui o método da classe Pessoa, mas ainda chama super.apresentar() para manter a funcionalidade original.
 
 
 
@@ -184,7 +184,7 @@ ______
 
 a) A asserção é falsa e a razão é verdadeira.
 
-b) A asserção é verdadeira e a razão é falsa.  (X). Asserção esta certo pois o polimorfismo permite que métodos com o mesmo nome sejam implementados de forma diferente em classes diferentes. A razão está errado pois JavaScript não suporta sobrecarga de métodos, o polimorfismo é implementado através da substituição de métodos (override).
+(X) b) A asserção é verdadeira e a razão é falsa.  --- Asserção esta certo pois o polimorfismo permite que métodos com o mesmo nome sejam implementados de forma diferente em classes diferentes. A razão está errado pois JavaScript não suporta sobrecarga de métodos, o polimorfismo é implementado através da substituição de métodos (override).
 
 c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explica a asserção.
 
